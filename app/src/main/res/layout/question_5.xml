@@ -10,37 +10,36 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
+        <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="4dp"
             android:layout_weight="0.5"
             android:background="#fff"
             android:padding="20dp"
-            android:text="name" />
+            android:hint="name" />
 
-        <TextView
+        <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_weight="0.5"
             android:background="#fff"
             android:padding="20dp"
-            android:text="address" />
+            android:hint="address" />
     </LinearLayout>
 
-    <TextView
+    <EditText
         android:id="@+id/subject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear"
         android:layout_marginTop="16dp"
         android:background="#fff"
-
         android:padding="20dp"
-        android:text="subject" />
+        android:hint="subject" />
 
-    <TextView
+    <EditText
         android:id="@+id/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,7 +48,8 @@
         android:layout_marginTop="16dp"
         android:background="#FFF"
         android:padding="20dp"
-        android:text="message" />
+        android:gravity="top"
+        android:hint="message" />
 
     <Button
         android:id="@+id/button"
